@@ -434,8 +434,18 @@ function register($form) {
 	});
 	
 }
-	
-	
-	 
+function click_back(){
+	const t = document.querySelector('.miniside-bar .list-cat-food');
+	t.style.marginLeft  = '-100px';
+	const z = document.querySelector('.trapezoid');
+	z.style.opacity = '60%';
+}
+function click_forward(){
+	const t = document.querySelector('.miniside-bar .list-cat-food');
+	t.style.marginLeft  = '0px';
+	const z = document.querySelector('.trapezoid');
+	z.style.opacity = '0%';
+}
+
 	
 
