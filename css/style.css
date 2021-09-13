@@ -2569,6 +2569,10 @@ form.callus .btn-submit:hover {
 .index2_grid .wrap-col {
     padding: 5px;
 }
+.search{
+    display: flex; align-items: center;
+   
+}
 
 #news-slider {}
 
