@@ -3141,3 +3141,8 @@ footer .copyright ul.social_icon {
         width: 50% !important;
     }
 }
+
+.wrap-content {
+    display: flex;
+    flex-wrap: wrap;
+}
