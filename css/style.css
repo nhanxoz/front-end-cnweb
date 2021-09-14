@@ -708,7 +708,9 @@ ul.social_icon li a,
 .topbar {
     background-color: #000000;
     padding: 10px 0;
+    margin-left: -20px;
     color: #fff;
+    width: 110%;
 }
 
 .topbar p {
@@ -1621,8 +1623,9 @@ ul.social_icon li a,
 /* ========== Our Food ======== */
 
 #page_header {
+    margin-left: -20px;
     background: url(../images/page-header.jpg) no-repeat;
-    width: 100%;
+    width: 110%;
     position: relative;
     min-height: 280px;
     background-size: cover;
@@ -2811,6 +2814,7 @@ footer .copyright ul.social_icon {
         padding-top: 60px;
     }
     .padding-top {
+        margin-top: 15px;
         padding-top: 60px;
     }
     .padding-bottom {
