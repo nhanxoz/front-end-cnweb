@@ -777,6 +777,7 @@ ul.social_icon li a,
 
 #main-navigation .navbar-brand {
     padding: 00 0;
+    margin-left: -50px;
 }
 
 #navigation.affix .navbar-brand {
@@ -2841,6 +2842,7 @@ footer .copyright ul.social_icon {
     }
     .navbar-brand>img {
         width: 75%;
+        left: px;
     }
     .navbar-default .navbar-nav>li>a {
         font-size: 12px;
