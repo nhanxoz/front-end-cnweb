@@ -449,7 +449,7 @@ function click_forward(){
 
 	
 try {
-	nonExistentFunction();
+	
 	var doc = window.document,
 	  context = doc.querySelector('.js-loop'),
 	  clones = context.querySelectorAll('.is-clone'),
@@ -570,20 +570,28 @@ try {
 	// Note - error messages will vary depending on browser
   }
 
-(function(){
-  
-	$('.shopping-cart').each(function() {
-	  var delay = $(this).index() * 50 + 'ms';
-	  $(this).css({
-		  '-webkit-transition-delay': delay,
-		  '-moz-transition-delay': delay,
-		  '-o-transition-delay': delay,
-		  'transition-delay': delay
-	  });
-	});
-	$('#cart, .shopping-cart').hover(function(e) {
-	  $(".shopping-cart").stop(true, true).addClass("active");
-	}, function() {
-	  $(".shopping-cart").stop(true, true).removeClass("active");
-	});  
-  })();
+
+  window.onresize = () =>{
+	var x = window.matchMedia("(min-width: 749px)");
+	if (x.matches){$('.navbar-collapse').collapse('hide');}
+  }
+	(function(){
+		
+			
+		
+		$('.shopping-cart').each(function() {
+		var delay = $(this).index() * 50 + 'ms';
+		$(this).css({
+			'-webkit-transition-delay': delay,
+			'-moz-transition-delay': delay,
+			'-o-transition-delay': delay,
+			'transition-delay': delay
+		});
+		});
+		$('#cart, .shopping-cart').hover(function(e) {
+			
+		$(".shopping-cart").stop(true, true).addClass("active");
+		}, function() {
+		$(".shopping-cart").stop(true, true).removeClass("active");
+		});  
+	})();
