@@ -461,6 +461,8 @@ ul.menu_widget li {
     padding: 10px 10px;
     background-color: #e25111;
     line-height: 18px;
+    display: flex;
+    justify-content: space-between;
 }
 
 ul.menu_widget li:nth-child(2n+2) {
@@ -468,9 +470,7 @@ ul.menu_widget li:nth-child(2n+2) {
     color: #000000;
 }
 
-ul.menu_widget li>span {
-    float: right;
-}
+ul.menu_widget li>span {}
 
 ul.tags {}
 
@@ -3383,5 +3383,61 @@ nav a:hover {
         content: "";
         display: table;
         clear: both;
+    }
+}
+
+
+/* sale */
+
+.sale {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: inline-block;
+    background: rgb(255, 17, 0);
+    color: white;
+    height: 4rem;
+    width: 4rem;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 4rem;
+    margin: 4vh 4vw;
+    transform: rotate(-20deg);
+    -webkit-animation: beat 1s ease infinite alternate;
+    animation: beat 1s ease infinite alternate;
+}
+
+.sale:before,
+.sale:after {
+    content: "";
+    position: absolute;
+    background: inherit;
+    height: inherit;
+    width: inherit;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transform: rotate(30deg);
+}
+
+.sale:after {
+    transform: rotate(60deg);
+}
+
+@-webkit-keyframes beat {
+    from {
+        transform: rotate(-20deg) scale(1);
+    }
+    to {
+        transform: rotate(-20deg) scale(1.1);
+    }
+}
+
+@keyframes beat {
+    from {
+        transform: rotate(-20deg) scale(1);
+    }
+    to {
+        transform: rotate(-20deg) scale(1.1);
     }
 }
