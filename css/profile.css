@@ -1,0 +1,176 @@
+.avatar {
+    display: flex;
+}
+
+.acount-icon-and-span {
+    display: flex;
+}
+
+.select {
+    margin-left: 2.6rem;
+    color: gray;
+}
+
+.page-Container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 1rem 5rem 1.5rem;
+}
+
+.detail {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10rem;
+}
+
+.my-profile-span {
+    border-bottom: 1.5px groove #c8c6c7;
+    ;
+}
+
+._3BlbUs {
+    margin-bottom: 1.875rem;
+    display: block;
+}
+
+._1iNZU3 {
+    align-items: center;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 1.5rem;
+    gap: 0.2rem;
+}
+
+._2PfA-y {
+    width: 75%;
+    text-align: right;
+    color: rgba(85, 85, 85, .8);
+    text-transform: capitalize;
+    overflow: hidden;
+    display: block;
+}
+
+._1LvCQN,
+._2_JugQ,
+._3qXkYh {
+    width: 75%;
+    padding-left: 1.25rem;
+    display: block;
+    text-align: left;
+}
+
+._2bdFDW {
+    align-items: center;
+    display: flex;
+    font-size: 1.5rem;
+}
+
+label {
+    margin-left: 20px;
+}
+
+#datepicker {
+    width: 180px;
+    margin: 0 20px 20px 20px;
+}
+
+#datepicker>span:hover {
+    cursor: pointer;
+}
+
+._1aIEbS {
+    overflow: hidden;
+    border-left: .0625rem solid #efefef;
+    justify-content: center;
+    padding-left: 3rem;
+    font-size: 1.5rem;
+}
+
+._1aIEbS,
+.goiz2O {
+    display: flex;
+}
+
+.profile2 {
+    display: flex;
+}
+
+.X1SONv {
+    flex-direction: column;
+}
+
+._1FzaUZ,
+.X1SONv {
+    align-items: center;
+    display: flex;
+}
+
+._1FzaUZ {
+    height: 6.25rem;
+    width: 6.25rem;
+    margin: 1.25rem 0;
+    position: relative;
+    justify-content: center;
+}
+
+.TgSfgo {
+    width: 100%;
+    height: 100%;
+    background-position: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    display: block;
+}
+
+.TgSfgo,
+.avt-img {
+    border-radius: 50%;
+}
+
+.avt-img {
+    width: 100%;
+    height: 100%;
+    background-position: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    display: block;
+}
+
+.profile-avatar {
+    display: inline-block;
+    position: relative;
+    border-radius: 50%;
+    border: .0625rem solid rgba(0, 0, 0, .09);
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.shopee-avatar__img {
+    border-radius: 50%;
+}
+
+.good-img-detail {
+    width: 30%;
+    height: 30%;
+}
+
+.chace-password {
+    display: none;
+}
+
+.detail-buy-history {
+    display: none;
+}
+
+.detail-info form {
+    display: block;
+    margin-top: 0em;
+    box-sizing: border-box
+}
+
+.detai-profile {}
