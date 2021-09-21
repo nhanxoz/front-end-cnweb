@@ -10,3 +10,38 @@
     justify-content: center;
     flex-wrap: wrap;
 }
+
+.Food-img {}
+
+.Food-img img {
+    max-width: 500px;
+}
+
+.row {
+    margin: 3rem;
+    display: flex;
+    gap: 13rem;
+    width: 100%;
+}
+
+.detail {
+    width: 30%;
+}
+
+.tags {
+    display: flex;
+}
+
+.detail-contents {
+    width: 100%;
+}
+
+.collapsed {
+    margin: 1rem 1rem 1rem 0;
+}
+
+@media(max-width: 768px) {
+    .row {
+        display: list-item;
+    }
+}

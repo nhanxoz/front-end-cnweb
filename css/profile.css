@@ -1,6 +1,7 @@
 .avatar {
     display: flex;
     width: 100%;
+    border-bottom: 1px solid rgba(0, 0, 0, .09);
 }
 
 .acount-icon-and-span {
@@ -13,11 +14,12 @@
 }
 
 .page-Container {
-    margin: 2rem;
+    padding: 2rem;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     width: 100%;
+    background-color: #f5f5f5
 }
 
 .detail {
@@ -26,12 +28,11 @@
     justify-content: space-between;
     align-items: center;
     width: 65%;
-    display: none;
+    display: block;
 }
 
 .my-profile-span {
-    border-bottom: 1.5px groove #c8c6c7;
-    ;
+    border-bottom: 1px solid rgba(0, 0, 0, .09);
 }
 
 ._3BlbUs {
@@ -154,6 +155,7 @@ label {
     border: .0625rem solid rgba(0, 0, 0, .09);
     -moz-box-sizing: border-box;
     box-sizing: border-box;
+    margin: .5rem;
 }
 
 .shopee-avatar__img {
@@ -167,11 +169,15 @@ label {
 
 .chace-password {
     display: none;
+    width: 65%;
+    background-color: white;
 }
 
 .detail-buy-history {
-    display: block;
+    display: none;
     margin: 12px 0;
+    width: 65%;
+    background-color: white;
 }
 
 .detail-info form {
@@ -191,12 +197,14 @@ label {
 
 .detail1 {
     width: 100%;
+    background-color: white;
 }
 
 ._31PFen {
     justify-items: center;
     display: block;
     text-align: center;
+    padding-bottom: 2rem;
 }
 
 .acount-icon-and-span1 {
@@ -242,4 +250,92 @@ label {
 .div-span-good3 {
     width: 85%;
     text-align: right;
+}
+
+.finaly-price {
+    margin-top: 1rem;
+    display: flex;
+    gap: 1rem;
+}
+
+.div-finaly-price1 {
+    text-align: right;
+    width: 92%;
+}
+
+.rebuy {
+    margin-top: 2rem;
+    width: 95%;
+    text-align: right;
+}
+
+.chance-password3 {
+    margin: 1px 0 0;
+    border-bottom: 1px solid rgba(0, 0, 0, .09);
+    color: #555;
+    margin-left: 2rem;
+}
+
+._3m9JxV {
+    margin-top: 2rem;
+}
+
+._1p2sNF {
+    display: flex;
+    gap: 2rem;
+}
+
+.J7OZkm {
+    text-align: right;
+    width: 25%;
+}
+
+._1IcdS- {
+    margin-top: 2rem;
+    width: 78%;
+    text-align: center;
+}
+
+.div-finaly-price2 {
+    color: #ee4d2d;
+    font-size: 2rem;
+}
+
+.profile-name-and-money {
+    margin-left: .5rem;
+}
+
+.username {
+    font-weight: bold;
+}
+
+.acount-balance {
+    display: flex;
+    gap: .7rem;
+}
+
+.acount-balance2 {
+    color: #ee4d2d;
+    font-size: 1.75rem;
+}
+
+._3Jd4Zu {
+    margin-top: 1rem;
+}
+
+#select4:hover {
+    color: #ee4d2d;
+}
+
+#select1:hover {
+    color: #ee4d2d;
+}
+
+#select2:hover {
+    color: #ee4d2d;
+}
+
+.my-profile-span1 {
+    margin-left: 2rem;
+    color: #555;
 }

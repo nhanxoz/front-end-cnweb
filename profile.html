@@ -78,8 +78,11 @@
                     <div class="profile-avatar__placeholder"></div><img class="shopee-avatar__img" src="images/avator1.jpg">
                 </div>
                 <div class="profile-name-and-money">
-                    <b>quang241099</b>
-                    <br> Số dư tài khoản: 15$
+                    <div class="username"><span>quang241099</span></div>
+                    <div class="acount-balance">
+                        <div class="acount-balance1"><span>Số dư tài khoản</span></div>
+                        <div class="acount-balance2"><span>$15</span></div>
+                    </div>
                 </div>
             </div>
             <div class="selection">
@@ -93,9 +96,9 @@
                     </div>
                     <div class="my-acount-selection">
                         <div class="select">
-                            <a id="select1" href="#">Hồ Sơ</a>
+                            <a id="select1">Hồ Sơ</a>
                             <br>
-                            <a href="#">Đổi Mật Khẩu</a>
+                            <a id="select2">Đổi Mật Khẩu</a>
                         </div>
                     </div>
                 </div>
@@ -103,7 +106,7 @@
                     <div class="stardust-dropdown__item-header">
                         <a class="acount-icon-and-span" href="/user/purchase">
                             <div class="acount-icon-and-span1"><img src="images/buy-history.png">
-                                <a id="select4" href="#">Đơn Mua</a>
+                                <a id="select4">Đơn Mua</a>
                             </div>
                         </a>
                     </div>
@@ -172,13 +175,15 @@
                                     <div class="_3BlbUs">
                                         <div class="_1iNZU3">
                                             <div class="_2PfA-y"><label>Giới tính</label></div>
-                                            <div class="radio" style="display: flex; padding-left: 1.25rem;">
-                                                <label class="radio-inline"><input type="radio"
+                                            <div class="_2_JugQ">
+                                                <div class="radio" style="display: flex; padding-left: 1.25rem;">
+                                                    <label class="radio-inline"><input type="radio"
                                                         name="optradio">Nam</label>
-                                                <label class="radio-inline"><input type="radio" name="optradio">Nữ
-                                                    2</label>
-                                                <label class="radio-inline"><input type="radio" name="optradio">Khác
-                                                    3</label>
+                                                    <label class="radio-inline"><input type="radio" name="optradio">Nữ
+                                                    </label>
+                                                    <label class="radio-inline"><input type="radio" name="optradio">Khác
+                                                    </label>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
@@ -195,7 +200,7 @@
                                         </div>
                                     </div>
                             </div>
-                            <div class="_31PFen"><button type="button" class="btn btn-solid-primary btn--m btn--inline" aria-disabled="false">Lưu</button>
+                            <div class="_31PFen"><button type="button" class="btn btn-info">Lưu</button>
                             </div>
                             </form>
                         </div>
@@ -205,7 +210,7 @@
                             <div class="_1FzaUZ">
                                 <div class="TgSfgo" style="background-image: url(images/avator1.jpg);">
                                 </div>
-                            </div><input class="_2xS5eV" style="display:none;" type="file" accept=".jpg,.jpeg,.png"><button type="button" class="btn btn-light btn--m btn--inline">Chọn ảnh</button>
+                            </div><input class="_2xS5eV" style="display:none;" type="file" accept=".jpg,.jpeg,.png"><button type="button" class="btn btn-success">Chọn ảnh</button>
                             <div class="_3Jd4Zu">
                                 <div class="_3UgHT6">Dụng lượng file tối đa 1 MB</div>
                                 <div class="_3UgHT6">Định dạng:.JPEG, .PNG</div>
@@ -240,16 +245,16 @@
                     <div class="div-finaly-price1">
                         <span>Tổng số tiền<nav></nav></span>
                     </div>
-                    <div class="div-finaly-price1">
+                    <div class="div-finaly-price2">
                         <span>$15<nav></nav></span>
                     </div>
                 </div>
                 <div class="rebuy">
-                    <div class="div-rebuy"><button class="">Mua lại</button></div>
+                    <div class="div-rebuy"><button type="button" class="btn btn-danger">Mua lại</button></div>
                 </div>
             </div>
         </div>
-        <div class="chace-password">
+        <div class="chace-password" id="chance-pw">
             <div class="chance-password1">
                 <form>
                     <div class="chance-password2">
@@ -264,39 +269,41 @@
                                     <div class="_1p2sNF">
                                         <div class="J7OZkm"><label class="_3W1PU2" for="password">Mật khẩu hiện
                                                 tại</label></div>
-                                        <div class="_38MRMp"><input id="password" class="_2R9TsD _3_Hq9P" type="password" autocomplete="off" name="password" value=""></div>
-                                        <button class="_1fdENx">Quên mật khẩu?</button>
+                                        <div class="_38MRMp"> <input class="form-control" type="password" name="f_name" id="password" placeholder="" required /> </div>
                                     </div>
-                                    <div class="eSOrcn">
-                                        <div class="_3m9JxV">
-                                            <div class="_1p2sNF">
-                                                <div class="J7OZkm"><label class="_3W1PU2" for="newPassword">Mật khẩu
+                                </div>
+                                <div class="eSOrcn">
+                                    <div class="_3m9JxV">
+                                        <div class="_1p2sNF">
+                                            <div class="J7OZkm"><label class="_3W1PU2" for="newPassword">Mật khẩu
                                                         mới</label></div>
-                                                <div class="_38MRMp"><input id="newPassword" class="_2R9TsD _3_Hq9P" type="password" autocomplete="off" name="newPassword" value="">
-                                                </div>
-                                            </div>
+                                            <div class="_38MRMp"> <input class="form-control" type="password" name="f_name" id="newpassword" placeholder="" required /> </div>
+
                                         </div>
                                     </div>
-                                    <div class="eSOrcn">
-                                        <div class="_3m9JxV">
-                                            <div class="_1p2sNF">
-                                                <div class="J7OZkm"><label class="_3W1PU2" for="newPasswordRepeat">Xác
+                                </div>
+                            </div>
+                            <div class="eSOrcn">
+                                <div class="_3m9JxV">
+                                    <div class="_1p2sNF">
+                                        <div class="J7OZkm"><label class="_3W1PU2" for="newPasswordRepeat">Xác
                                                         nhận mật khẩu</label></div>
-                                                <div class="_38MRMp"><input id="newPasswordRepeat" class="_2R9TsD _3_Hq9P" type="password" autocomplete="off" name="newPasswordRepeat" value=""></div>
-                                            </div>
-                                        </div>
+                                        <div class="_38MRMp"><input class="form-control" type="password" name="f_name" id="renewpassword" placeholder="" required /></div>
                                     </div>
-                                    <div class="eSOrcn">
-                                        <div class="_1DS7fG"></div>
-                                        <div class="_1IcdS-"><button type="button" class="">Xác nhận</button></div>
-                                    </div>
+                                </div>
+                            </div>
+                            <div class="eSOrcn">
+                                <div class="_1DS7fG"></div>
+                                <div class="_1IcdS-">
+                                    <button type="button" class="btn btn-info">Xác nhận</button>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </form>
             </div>
+            </form>
         </div>
+    </div>
     </div>
     </div>
     </div>
