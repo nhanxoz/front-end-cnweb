@@ -17,11 +17,14 @@
     max-width: 500px;
 }
 
-.row {
+.row1 {
     margin: 3rem;
     display: flex;
     gap: 13rem;
     width: 100%;
+    justify-content: center;
+    position: relative;
+    overflow: auto;
 }
 
 .detail {
@@ -37,11 +40,27 @@
 }
 
 .collapsed {
-    margin: 1rem 1rem 1rem 0;
+    margin-top: 3rem;
+}
+
+.accordion {
+    margin-top: 1rem;
+}
+
+.form-group {
+    margin-bottom: 3rem;
+}
+
+.payment {
+    margin-top: 3rem;
+}
+
+.shipping {
+    margin-top: 3rem;
 }
 
 @media(max-width: 768px) {
-    .row {
+    .row1 {
         display: list-item;
     }
 }
