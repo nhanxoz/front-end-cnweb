@@ -14,13 +14,13 @@
 .Food-img {}
 
 .Food-img img {
-    max-width: 500px;
+    max-width: 550px;
 }
 
 .row1 {
     margin: 3rem;
     display: flex;
-    gap: 13rem;
+    gap: 6rem;
     width: 100%;
     justify-content: center;
     position: relative;
@@ -33,6 +33,7 @@
 
 .tags {
     display: flex;
+    position: relative;
 }
 
 .detail-contents {
@@ -59,8 +60,34 @@
     margin-top: 3rem;
 }
 
-@media(max-width: 768px) {
+.input-group {
+    margin-right: 3rem;
+    position: relative;
+}
+
+@media(max-width: 991px) {
+    .detail {
+        width: 100%;
+    }
     .row1 {
         display: list-item;
+    }
+    .input-group {
+        width: 30rem;
+        margin-right: 20rem;
+    }
+    .tags {
+        margin-right: 5rem;
+    }
+    .image_container {
+        margin-right: 10rem;
+    }
+    .card-body {
+        margin-right: 5rem;
+    }
+    .Food-img img {
+        max-width: 500px;
+        width: 100%;
+        height: auto;
     }
 }

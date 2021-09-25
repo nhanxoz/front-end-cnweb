@@ -2,6 +2,7 @@
     display: flex;
     width: 100%;
     border-bottom: 1px solid rgba(0, 0, 0, .09);
+    position: relative;
 }
 
 .acount-icon-and-span {
@@ -11,6 +12,7 @@
 .select {
     margin-left: 2.6rem;
     color: gray;
+    cursor: pointer;
 }
 
 .page-Container {
@@ -102,6 +104,7 @@ label {
 .profile2 {
     display: flex;
     justify-content: center;
+    position: relative;
 }
 
 .X1SONv {
@@ -178,6 +181,7 @@ label {
     margin: 12px 0;
     width: 65%;
     background-color: white;
+    position: relative;
 }
 
 .detail-info form {
@@ -193,6 +197,8 @@ label {
 .profile {
     width: 28%;
     justify-content: right;
+    position: relative;
+    margin-right: 3rem;
 }
 
 .detail1 {
@@ -210,6 +216,7 @@ label {
 .acount-icon-and-span1 {
     display: flex;
     margin-top: .5rem;
+    cursor: pointer;
 }
 
 .selection {
@@ -338,4 +345,36 @@ label {
 .my-profile-span1 {
     margin-left: 2rem;
     color: #555;
+}
+
+@media(max-width: 991px) {
+    .page-Container {
+        display: contents;
+    }
+    .detail1 {
+        width: 100%;
+    }
+    .detail {
+        width: 100%;
+    }
+    .profile {
+        margin-bottom: 3rem;
+    }
+    .chace-password {
+        width: 100%;
+    }
+    .chance-password1 {
+        width: 100%;
+    }
+    .chance-password3 {
+        padding-top: 1rem;
+        border-top: 1px solid rgba(0, 0, 0, .09);
+    }
+    .detail-buy-history {
+        width: 100%;
+    }
+    .my-profile-span {
+        padding-top: 1rem;
+        border-top: 1px solid rgba(0, 0, 0, .09);
+    }
 }

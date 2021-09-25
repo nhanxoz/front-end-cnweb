@@ -16,6 +16,7 @@
     <link rel="stylesheet" type="text/css" href="css/zerogrid.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" type="text/css" href="css/loader.css">
+    <link rel="stylesheet" type="text/css" href="css/blog.css">
     <link rel="shortcut icon" href="images/favicon.png">
 
 
@@ -204,6 +205,16 @@
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-5">
+                    <div class="writing">
+                        <button id="bt1" onclick="blogging()" class="blogging">
+                            Viết Blog 
+                        </button>
+                        <script>
+                            function blogging() {
+                                location.assign("blog-writing.html");
+                            }
+                        </script>
+                    </div>
                     <aside class="sidebar">
                         <div class="widget">
                             <ul class="tabs">
