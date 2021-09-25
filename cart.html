@@ -51,7 +51,7 @@
 
     <header id="main-navigation">
         <div id="navigation" data-spy="affix" data-offset-top="20">
-            <div class="container">
+            <div class="container ">
                 <div class="row">
                     <div class="col-md-12">
                         <nav class="navbar navbar-default">
@@ -108,7 +108,8 @@
                                                 </li>
                                             </ul>
 
-                                            <a href="#" class="button">Thanh toán <i class="fa fa-chevron-right"></i></a>
+                                            <a href="#" class="button" style="color:aliceblue;">Thanh toán <i
+                                                    class="fa fa-chevron-right"></i></a>
                                         </div>
                                         <!--end shopping-cart -->
 
@@ -137,85 +138,90 @@
         </div>
     </section>
 
+    <!-- Content -->
+    <div style="align-items: center;">
+        <section id="cart1" class="padding-top card1 container" style="justify-content: center; align-items: center;">
+            <h1>Giỏ hàng</h1>
 
-    <section id="cart1" class="padding-top">
-        <h1>Giỏ hàng</h1>
+            <div class="shopping-cart1">
 
-        <div class="shopping-cart1">
+                <div class="column-labels">
+                    <label class="product-image">Image</label>
+                    <label class="product-details">Product</label>
+                    <label class="product-price">Price</label>
+                    <label class="product-quantity">Quantity</label>
+                    <label class="product-removal">Remove</label>
+                    <label class="product-line-price">Total</label>
+                </div>
 
-            <div class="column-labels">
-                <label class="product-image">Image</label>
-                <label class="product-details">Product</label>
-                <label class="product-price">Price</label>
-                <label class="product-quantity">Quantity</label>
-                <label class="product-removal">Remove</label>
-                <label class="product-line-price">Total</label>
+                <div class="product">
+                    <div class="product-image">
+                        <img src="https://s.cdpn.io/3/dingo-dog-bones.jpg">
+                    </div>
+                    <div class="product-details">
+                        <div class="product-title">Cá hồi nauy</div>
+                        <p class="product-description">Cá hồi Na uy được đánh bắt quanh năm, là nguồn cung cấp
+                            cá hồi nguyên con, cá hồi fillet và trứng cá hồi là loại thực phẩm giàu protein
+                            rất tốt cho sức khỏe. Thịt cá hồi cung cấp các chất dinh dưỡng
+                            như protein, axit amin thiết yếu cho cơ thể, omega-3, vitamin D, vitamin B12, iốt và
+                            selen, là các dưỡng chất khác ít thấy trong các thực phẩm khác.</p>
+                    </div>
+                    <div class="product-price">12.99</div>
+                    <div class="product-quantity">
+                        <input type="number" value="2" min="1">
+                    </div>
+                    <div class="product-removal">
+                        <button class="remove-product">
+                            Remove
+                        </button>
+                    </div>
+                    <div class="product-line-price">25.98</div>
+                </div>
+
+                <div class="product">
+                    <div class="product-image">
+                        <img src="https://s.cdpn.io/3/large-NutroNaturalChoiceAdultLambMealandRiceDryDogFood.png">
+                    </div>
+                    <div class="product-details">
+                        <div class="product-title">Cá hồi Nauy</div>
+                        <p class="product-description">Đặc biệt</p>
+                    </div>
+                    <div class="product-price">45.99</div>
+                    <div class="product-quantity">
+                        <input type="number" value="1" min="1">
+                    </div>
+                    <div class="product-removal">
+                        <button class="remove-product">
+                            Remove
+                        </button>
+                    </div>
+                    <div class="product-line-price">45.99</div>
+                </div>
+
+                <div class="totals">
+                    <div class="totals-item">
+                        <label>Subtotal</label>
+                        <div class="totals-value" id="cart-subtotal">71.97</div>
+                    </div>
+                    <div class="totals-item">
+                        <label>Tax (5%)</label>
+                        <div class="totals-value" id="cart-tax">3.60</div>
+                    </div>
+                    <div class="totals-item">
+                        <label>Shipping</label>
+                        <div class="totals-value" id="cart-shipping">15.00</div>
+                    </div>
+                    <div class="totals-item totals-item-total">
+                        <label>Grand Total</label>
+                        <div class="totals-value" id="cart-total">90.57</div>
+                    </div>
+                </div>
+
+                <button class="checkout">Thanh Toán</button>
+
             </div>
-
-            <div class="product">
-                <div class="product-image">
-                    <img src="https://s.cdpn.io/3/dingo-dog-bones.jpg">
-                </div>
-                <div class="product-details">
-                    <div class="product-title">Cá hồi nauy</div>
-                    <p class="product-description">Cá hồi Na uy được đánh bắt quanh năm, là nguồn cung cấp cá hồi nguyên con, cá hồi fillet và trứng cá hồi là loại thực phẩm giàu protein rất tốt cho sức khỏe. Thịt cá hồi cung cấp các chất dinh dưỡng
-                        như protein, axit amin thiết yếu cho cơ thể, omega-3, vitamin D, vitamin B12, iốt và selen, là các dưỡng chất khác ít thấy trong các thực phẩm khác.</p>
-                </div>
-                <div class="product-price">12.99</div>
-                <div class="product-quantity">
-                    <input type="number" value="2" min="1">
-                </div>
-                <div class="product-removal">
-                    <button class="remove-product">
-                Remove
-              </button>
-                </div>
-                <div class="product-line-price">25.98</div>
-            </div>
-
-            <div class="product">
-                <div class="product-image">
-                    <img src="https://s.cdpn.io/3/large-NutroNaturalChoiceAdultLambMealandRiceDryDogFood.png">
-                </div>
-                <div class="product-details">
-                    <div class="product-title">Cá hồi Nauy</div>
-                    <p class="product-description">Đặc biệt</p>
-                </div>
-                <div class="product-price">45.99</div>
-                <div class="product-quantity">
-                    <input type="number" value="1" min="1">
-                </div>
-                <div class="product-removal">
-                    <button class="remove-product">
-                Remove
-              </button>
-                </div>
-                <div class="product-line-price">45.99</div>
-            </div>
-
-            <div class="totals">
-                <div class="totals-item">
-                    <label>Subtotal</label>
-                    <div class="totals-value" id="cart-subtotal">71.97</div>
-                </div>
-                <div class="totals-item">
-                    <label>Tax (5%)</label>
-                    <div class="totals-value" id="cart-tax">3.60</div>
-                </div>
-                <div class="totals-item">
-                    <label>Shipping</label>
-                    <div class="totals-value" id="cart-shipping">15.00</div>
-                </div>
-                <div class="totals-item totals-item-total">
-                    <label>Grand Total</label>
-                    <div class="totals-value" id="cart-total">90.57</div>
-                </div>
-            </div>
-
-            <button class="checkout">Thanh Toán</button>
-
-        </div>
-    </section>
+            </section>
+    </div>
 
 
 
