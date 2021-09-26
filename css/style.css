@@ -786,7 +786,8 @@ ul.social_icon li a,
 @media screen and (max-width: 753px) {
     #main-navigation .navbar-brand {
         padding: 00 0;
-        margin-left: -30px;
+        margin-left: -50px;
+        width: 50%;
     }
 }
 
@@ -3435,6 +3436,9 @@ nav a:hover {
     }
 }
 
+
+/* Hiệu ứng chuyển khuyến mãi */
+
 .lineUp {
     transition: 1s;
 }
@@ -3490,4 +3494,9 @@ nav a:hover {
 
 .lineUp {
     transition: 1s;
+}
+
+#favorite-food {
+    display: flex;
+    flex-wrap: wrap;
 }

@@ -73,50 +73,168 @@
     <section class="container-page">
         <div class="row1">
             <div class="Food-img">
-                <img src="images/food-1.jpg" alt="food-detail">
-            </div>
-            <div id="detail-contents" class="detail">
-                <h1 itemprop="name" style="font-weight: bold;" class="h4 d-block product__name mt0 mb12 product__name-product"> Giá Đỗ Xào Xả Ớt
-                </h1>
-                <div class="stars">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="far fa-star"></i>
-                </div>
-                <div class="product__price">
-                    <p class="flex align-center flex-wrap mb0"><span class="h4 product__price-span mb0" style="color:red">
-                            $9.95
-                        </span> <span class="h4 product__price-original ml8 mr12 mb0"><del>
-                                $13.00
-                            </del></p>
-                </div>
-                <div class="product__form product__form-inline">
-                    <div class="product__quantity"><label id="label1">
-                            Số lượng
-                        </label>
-                        <div class="input-group">
-                            <span class="input-group-btn"><button class="btn btn-default value-control"
-                                    data-action="minus" data-min="0" data-target="font-size"><span
-                                        class="glyphicon glyphicon-minus"></span></button>
-                        </span>
-                        <input type="text" value="1" class="form-control" id="font-size" />
-                        <span class="input-group-btn"><button class="btn btn-default value-control"
-                                    data-action="plus" data-max="9" data-target="font-size"><span
-                                        class="glyphicon glyphicon-plus"></span></button>
-                        </span>
-                </div>
-            </div>
-            <form action="http://themesindustry.us13.list-manage.com/subscribe/post-json?u=4d80221ea53f3a4487ddebd93&id=494727d648&c=?" method="get" onSubmit="return false" class="newsletter">
-                <div class="form-group">
+                <!-- <head>
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+</head> -->
+
+                <div class="container">
+                    <div id="main_area">
+                        <!-- Slider -->
+                        <div class="row">
+                            <div class="col-xs-12" id="slider">
+                                <!-- Top part of the slider -->
+                                <div class="row">
+                                    <div class="col-sm-8" id="carousel-bounding-box">
+                                        <div class="carousel slide" id="myCarousel">
+                                            <!-- Carousel items -->
+                                            <div class="carousel-inner">
+                                                <div class="active item" data-slide-number="0">
+                                                    <img src="http://placehold.it/770x300&text=one"></div>
+
+                                                <div class="item" data-slide-number="1">
+                                                    <img src="http://placehold.it/770x300&text=two"></div>
+
+                                                <div class="item" data-slide-number="2">
+                                                    <img src="http://placehold.it/770x300&text=three"></div>
+
+                                                <div class="item" data-slide-number="3">
+                                                    <img src="http://placehold.it/770x300&text=four"></div>
+
+                                                <div class="item" data-slide-number="4">
+                                                    <img src="http://placehold.it/770x300&text=five"></div>
+
+                                                <div class="item" data-slide-number="5">
+                                                    <img src="http://placehold.it/770x300&text=six"></div>
+                                            </div>
+                                            <!-- Carousel nav -->
+                                            <a class="left carousel-control" href="#myCarousel" role="button"
+                                                data-slide="prev">
+                                                <span class="glyphicon glyphicon-chevron-left"></span>
+                                            </a>
+                                            <a class="right carousel-control" href="#myCarousel" role="button"
+                                                data-slide="next">
+                                                <span class="glyphicon glyphicon-chevron-right"></span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-4" id="carousel-text"></div>
+
+                                    <div id="slide-content" style="display: none;">
+                                        <div id="slide-content-0">
+                                            <div id="detail-contents" class="detail">
+                                                <h1 itemprop="name" style="font-weight: bold;"
+                                                    class="h4 d-block product__name mt0 mb12 product__name-product">
+                                                    Giá Đỗ Xào Xả Ớt
+                                                </h1>
+                                                <div class="stars">
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="far fa-star"></i>
+                                                </div>
+                                                <div class="product__price">
+                                                    <p class="flex align-center flex-wrap mb0"><span
+                                                            class="h4 product__price-span mb0" style="color:red">
+                                                            $9.95
+                                                        </span> <span
+                                                            class="h4 product__price-original ml8 mr12 mb0"><del>
+                                                                $13.00
+                                                            </del></p>
+                                                </div>
+                                                <div class="product__form product__form-inline">
+                                                    <div class="product__quantity"><label id="label1">
+                                                            Số lượng
+                                                        </label>
+                                                        <div class="input-group">
+                                                        <span class="input-group-btn"><button
+                                                                class="btn btn-default value-control"
+                                                                data-action="minus" data-min="0"
+                                                                data-target="font-size"><span
+                                                                    class="glyphicon glyphicon-minus"></span></button>
+                                                        </span>
+                                                        <input type="text" value="1" class="form-control"
+                                                            id="font-size" />
+                                                        <span class="input-group-btn"><button
+                                                                class="btn btn-default value-control" data-action="plus"
+                                                                data-max="9" data-target="font-size"><span
+                                                                    class="glyphicon glyphicon-plus"></span></button>
+                                                        </span>
+                                                        </div>
+                                                        </div>
+                                        </div>
+
+
+                                        </div>
+                                        </div>
+                                        </div>
+                                        </div>
+                                        <!--/Slider-->
+
+                                        <div class="row hidden-xs" id="slider-thumbs">
+                                            <!-- Bottom switcher of slider -->
+                                            <ul class="hide-bullets">
+                                                <li class="col-sm-2">
+                                                    <a class="thumbnail" id="carousel-selector-0"><img
+                                                            src="http://placehold.it/170x100&text=one"></a>
+                                                </li>
+
+                                                <li class="col-sm-2">
+                                                    <a class="thumbnail" id="carousel-selector-1"><img
+                                                            src="http://placehold.it/170x100&text=two"></a>
+                                                </li>
+
+                                                <li class="col-sm-2">
+                                                    <a class="thumbnail" id="carousel-selector-2"><img
+                                                            src="http://placehold.it/170x100&text=three"></a>
+                                                </li>
+
+                                                <li class="col-sm-2">
+                                                    <a class="thumbnail" id="carousel-selector-3"><img
+                                                            src="http://placehold.it/170x100&text=four"></a>
+                                                </li>
+
+                                                <li class="col-sm-2">
+                                                    <a class="thumbnail" id="carousel-selector-4"><img
+                                                            src="http://placehold.it/170x100&text=five"></a>
+                                                </li>
+
+                                                <li class="col-sm-2">
+                                                    <a class="thumbnail" id="carousel-selector-5"><img
+                                                            src="http://placehold.it/170x100&text=six"></a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        </div>
+                                        </div>
+                                        </div>
+                                        <div action="http://themesindustry.us13.list-manage.com/subscribe/post-json?u=4d80221ea53f3a4487ddebd93&id=494727d648&c=?"
+                                            method="get" onSubmit="return false" class="newsletter"
+                                            style="flex-direction: row; display: flex;">
+                                            <div class="copyright clearfix" style="flex: 3">
+                                                <h3 style="margin-bottom: 1.5rem;">Chia sẻ</h3>
+                                                <ul class="social_icon">
+                                                    <li><a id="a" href="#" class="facebook"><i class="icon-facebook5"
+                                                                style="color:grey;border: 2px grey; margin-right: 1rem;"></i></a>
+                                                    </li>
+                                                    <li><a href="#" class="twitter"><i class="icon-twitter4"
+                                                                style="color:grey;border: 2px grey; margin-right: 1rem"></i></a>
+                                                    </li>
+                                                    <li><a href="#" class="google"><i class="icon-google"
+                                                                style="color:grey;border: 2px grey; margin-right: 1rem"></i></a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="form-group" style="flex: 1">
                     <input type="submit" class="btn-submit button3" value="Thêm vào giỏ" />
                 </div>
-            </form>
+            </div>
         </div>
         <div class="widget">
             <h3>Tags</h3>
-            <ul class="tags">
+            <ul class="tags" style="display: flex;flex-wrap: wrap;">
                 <li><a href="#.">Món Xào</a></li>
                 <li><a href="#.">Ẩm thực</a></li>
                 <li><a href="#.">Sức khỏe</a></li>
@@ -124,17 +242,17 @@
                 <li><a href="#.">Món ngon</a></li>
             </ul>
         </div>
-        <div class="copyright clearfix">
+        <!-- <div class="copyright clearfix">
             <h3 style="margin-bottom: 1.5rem;">Chia sẻ</h3>
             <ul class="social_icon">
                 <li><a id="a" href="#" class="facebook"><i class="icon-facebook5"
-                                    style="color:grey;border: 2px  grey; margin-right: 1rem;"></i></a></li>
+                                style="color:grey;border: 2px grey; margin-right: 1rem;"></i></a></li>
                 <li><a href="#" class="twitter"><i class="icon-twitter4"
-                                    style="color:grey;border: 2px grey; margin-right: 1rem"></i></a></li>
+                                style="color:grey;border: 2px grey; margin-right: 1rem"></i></a></li>
                 <li><a href="#" class="google"><i class="icon-google"
-                                    style="color:grey;border: 2px  grey; margin-right: 1rem"></i></a></li>
+                                style="color:grey;border: 2px grey; margin-right: 1rem"></i></a></li>
             </ul>
-        </div>
+        </div> -->
         <div class="accordion" id="myaccordion" style="margin-top: 3rem;">
 
             <div class="card">
@@ -240,6 +358,7 @@
     <script src="js/jquery.mixitup.min.js"></script>
     <script src="js/functions.js" type="text/javascript"></script>
     <script src="js/foodDetail.js" type="text/javascript"></script>
+    <script src="js/carousel-detail.js" type="text/javascript"></script>
 
 
 </body>

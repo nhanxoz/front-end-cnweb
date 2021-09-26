@@ -201,6 +201,38 @@ label {
     margin-right: 3rem;
 }
 
+.shopee-avatar__img {
+    width: 100px;
+}
+
+@media screen and (max-width: 992px) {
+    .profile {
+        display: flex;
+        width: 100%;
+        justify-content: right;
+        position: relative;
+        margin-right: 3rem;
+    }
+    .shopee-avatar__img {
+        width: 70px;
+    }
+    /* ._1aIEbS {
+        width: 100%;
+    }
+    .profile2 {
+        flex-direction: column-reverse;
+    } */
+}
+
+@media screen and (max-width: 768px) {
+    ._1aIEbS {
+        width: 100%;
+    }
+    .profile2 {
+        flex-direction: column-reverse;
+    }
+}
+
 .detail1 {
     width: 100%;
     background-color: white;
